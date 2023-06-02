@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mNavFav"
+
+        android:title="Favorite" />
+    <item
+        android:id="@+id/mNavMusic"
+
+        android:title="Music" />
+    <item
+        android:id="@+id/mNavPlace"
+
+        android:title="Place" />
+    <item
+        android:id="@+id/mNavNews"
+
+        android:title="Newspaper" />
+
+</menu>
