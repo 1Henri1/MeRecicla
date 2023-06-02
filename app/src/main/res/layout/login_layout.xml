@@ -88,6 +88,7 @@
         android:textSize="20sp"
         android:backgroundTint="#05612C"
         android:textAllCaps="true"
+        android:id="@+id/logar"
         android:textColor="#000"
         android:layout_marginTop="25dp"/>
 
@@ -97,6 +98,7 @@
         android:layout_weight="1"
         android:layout_marginHorizontal="20dp"
         android:text="Voltar"
+            android:id="@+id/voltar"
             android:backgroundTint="#05612C"
         android:textSize="20sp"
             android:textColor="#000"

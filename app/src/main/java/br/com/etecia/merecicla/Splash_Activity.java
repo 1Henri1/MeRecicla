@@ -2,7 +2,9 @@ package br.com.etecia.merecicla;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 
 public class Splash_Activity extends AppCompatActivity {
 
@@ -10,5 +12,13 @@ public class Splash_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash_layout);
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                startActivity(new Intent(getApplicationContext(),
+                        LoginSelect_Activity.class));
+                finish();
+            }
+        }, 3000);
     }
 }
